@@ -1,0 +1,13 @@
+    :root {
+    --navbar-size: 50px;
+    --burger-width: 25px;
+    --navbar-padding: 5px;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+  }
+  
+  section img {
+    width: 100%;
+  }

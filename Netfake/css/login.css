@@ -1,0 +1,48 @@
+header {
+    margin: 25px;
+}
+
+div {
+    border: darkgrey 2px solid;
+    max-width: 600px;
+    border-radius: 15px;
+    margin: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+form h1 {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+form input {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;   
+}
+
+form button {
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form a {
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}

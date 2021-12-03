@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de acceso a NETFAKE</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    <header class="header" id="header"><img src="./img/logo-netfake-transparente.png" alt="logo de Netfake"></header>
-    <br><br>
+    <header class="header" id="header"><img src="./img/logo-netfake-transparente.png" alt="logo de Netfake" width="150px"></header>
        
-    <form class="form" id="form">
-        <label for="email">Nombre de usuario (email):</label>
-        <input type="email" id="email" name="email" placeholder="escribe tu email">
-        <br>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" placeholder="escribe tu contraseña">
-        <br>
-        <br>
-        <button type="submit" id="button" name="button" formaction="./main.html" formtarget="_blank">Acceder</button>
-        <a href="">¿Olvidaste tu contraseña?</a>
-    </form>
+    <div>
+        <form class="form" id="form">
+            <h1>Empieza la aventura !</h1>
+
+            <input type="email" id="email" name="email" placeholder="Email">
+            
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+            <br>
+            <button type="submit" id="button" name="button" formaction="./main.html" formtarget="_blank">Acceder</button>
+            <br>
+            <a href="">¿Olvidaste tu contraseña?</a>
+        </form>
+    </div>
     
 </body>
 </html>
