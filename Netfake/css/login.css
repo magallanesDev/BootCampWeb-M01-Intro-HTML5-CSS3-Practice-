@@ -1,5 +1,8 @@
 header {
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    height: var(--navbar-size);
 }
 
 div {
@@ -27,15 +30,15 @@ form h1 {
 form input {
     width: 90%;
     height: 40px;
-    margin: 10px;
+    margin: 15px;
     font-size: 15px;
-    text-align: center;   
+    text-align: center; 
 }
 
 form button {
     width: 90%;
     height: 30px;
-    margin: 10px;
+    margin: 30px;
     cursor: pointer;
     font-size: 15px;
 }
@@ -45,4 +48,5 @@ form a {
     text-decoration: none;
     cursor: pointer;
     font-size: 14px;
+    color:cornflowerblue;
 }

@@ -7,14 +7,19 @@
     <title>Página principal de NETFAKE</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
+
 <body>
     <nav class="navbar">
-        <span><img src="./img/logo-netfake-transparente.png" alt="logo de Netfake" width="100px"></span>
-        <br><br>
-        <span class="burger-label">=</span>
+        <input type="checkbox" id="burger-checkbox">
+        <label for="burger-checkbox" class="burger-label"></label>
+
+        <span class="logo">
+          <img src="./img/logo-netfake-transparente.png" alt="logo de Netfake" width="150px">
+        </span>  
     
+
         <ul class="navbar-list">
           <li class="navbar-item"><a href="#novedades">Novedades</a></li>
           <li class="navbar-item"><a href="#series">Series</a></li>
@@ -26,7 +31,8 @@
           </li>
           <li class="navbar-item"><a href="#cerrar-sesion">Cerrar sesión</a></li>
         </ul>
-      </nav>
+    </nav>
+
     <p>PÁGINA PRINCIPAL</p>
     
 </body>
