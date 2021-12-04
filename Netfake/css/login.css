@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: darkgrey;
     height: var(--navbar-size);
 }

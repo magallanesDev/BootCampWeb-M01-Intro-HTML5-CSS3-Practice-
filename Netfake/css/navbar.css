@@ -13,7 +13,7 @@
 .navbar .logo {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .navbar a {
@@ -71,8 +71,9 @@
   gap: .5rem;
 }
 
-.navbar-list .navbar-item {
+.navbar-list .navbar-item, ::placeholder {
   text-align: center;
+  width: auto;
 }
 
 .navbar-list a {
@@ -81,3 +82,35 @@
   display: inline-block;
   color: black;
 }
+
+
+@media all and (min-width: 768px) {
+
+  .navbar .burger-label {
+    display: none;
+  }
+
+  .navbar .logo {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+  }
+
+  .navbar-list {
+    flex-direction: row;
+    width: 0;
+    left: 250px;
+    top: 5px;
+  }
+
+  .navbar-item {
+    padding: 2px;
+  }
+
+  #buscar {
+    margin-top: 15px;
+  }
+
+}
+
