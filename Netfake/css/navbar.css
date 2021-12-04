@@ -57,7 +57,6 @@
   margin: 0;
   width: 200px;
   background-color:antiquewhite;
-  color:black;
   list-style-type: none;
   padding: 0;
 
@@ -83,8 +82,14 @@
   color: black;
 }
 
+.navbar-list input {
+  margin: 1rem;
+}
 
-@media all and (min-width: 768px) {
+
+/* pantallas grandes */
+
+@media all and (min-width: 800px) {
 
   .navbar .burger-label {
     display: none;
@@ -94,18 +99,23 @@
     flex: 1;
     display: flex;
     justify-content: left;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .navbar-list {
+    display: flex;
     flex-direction: row;
     width: 0;
-    left: 250px;
+    left: 200px;
     top: 5px;
   }
 
   .navbar-item {
     padding: 2px;
+  }
+
+  .navbar-list a:hover {
+    color: red;
   }
 
   #buscar {
