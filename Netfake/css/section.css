@@ -1,0 +1,35 @@
+.peli {
+    border: solid 1px pink;
+    display: flex;
+  }
+  
+
+.container {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 40px;
+    max-width: 760px;
+    display: grid;
+    gap: 50px;
+    grid-template-areas:
+      "peli1  peli2  peli3"
+      "peli4  peli5  peli6"
+      "peli7  peli8  peli9"
+      "peli10  peli11  peli12";
+  }
+
+  .novedades {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+  .favoritos {
+    margin-top: 75px;
+    margin-left: 40px;
+    margin-bottom: 335px;
+  }
+  
+  .series, .peliculas {
+    margin-top: 75px;
+    margin-left: 40px;
+  }
