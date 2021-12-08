@@ -86,6 +86,9 @@
   margin: 1rem;
 }
 
+.navbar-list a:hover {
+  color: red;
+}
 
 /* pantallas grandes */
 
