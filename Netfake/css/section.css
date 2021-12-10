@@ -1,35 +1,60 @@
+section {
+    padding: 2rem 2rem;
+  }
+
 .peli {
     border: solid 1px pink;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-
 .container {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 0px;
     margin-right: 40px;
     max-width: 760px;
     display: grid;
     gap: 50px;
     grid-template-areas:
+      "title  title  title"
       "peli1  peli2  peli3"
-      "peli4  peli5  peli6"
-      "peli7  peli8  peli9"
-      "peli10  peli11  peli12";
+      "peli4  peli5  peli6";
   }
 
-  .novedades {
-    margin-top: 100px;
-    margin-left: 40px;
+  .novedades, .series, .peliculas {
+    margin-left: 10px;
   }
 
   .favoritos {
-    margin-top: 75px;
-    margin-left: 40px;
-    margin-bottom: 335px;
+    margin-left: 10px;
+    margin-bottom: 500px;
   }
   
-  .series, .peliculas {
-    margin-top: 75px;
-    margin-left: 40px;
+  .title {
+    grid-area: title;
+  }
+
+  .peli1 {
+    grid-area: peli1;
+  }
+
+  .peli2 {
+    grid-area: peli2;
+  }
+
+  .peli3 {
+    grid-area: peli3;
+  }
+
+  .peli4 {
+    grid-area: peli4;
+  }
+
+  .peli5 {
+    grid-area: peli5;
+  }
+
+  .peli6 {
+    grid-area: peli6;
   }

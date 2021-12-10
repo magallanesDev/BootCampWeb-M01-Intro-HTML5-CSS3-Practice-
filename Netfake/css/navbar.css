@@ -108,6 +108,7 @@
   .navbar-list {
     display: flex;
     flex-direction: row;
+    justify-content: left;
     width: 0;
     left: 200px;
     top: 5px;
