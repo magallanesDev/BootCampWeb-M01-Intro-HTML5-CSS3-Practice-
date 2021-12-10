@@ -3,19 +3,20 @@ section {
   }
 
 .peli {
-    border: solid 1px pink;
+    border: solid 1px darkgrey;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-.container {
+.container1 {
     margin-top: 40px;
     margin-left: 0px;
     margin-right: 40px;
     max-width: 760px;
     display: grid;
-    gap: 50px;
+    gap: 30px;
     grid-template-areas:
       "title  title  title"
       "peli1  peli2  peli3"
@@ -58,3 +59,51 @@ section {
   .peli6 {
     grid-area: peli6;
   }
+
+.informacion {
+  margin-top: 40px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+}
+
+.informacion li {
+  padding: 0.5rem;
+  max-width: 700px;
+}
+
+.informacion p {
+  line-height: 150%;
+  margin-top: 0.5rem;
+}
+
+.trailer {
+  margin-left: 10px;
+}
+
+.similares {
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+.container2 {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 40px;
+  max-width: 760px;
+  display: grid;
+  gap: 50px;
+  grid-template-areas:
+    "caratula  trailer";
+}
+
+.container3 {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 40px;
+  max-width: 760px;
+  display: grid;
+  gap: 50px;
+  grid-template-areas:
+    "peli1  peli2  peli3"
+    "peli4  peli5  peli6";
+}

@@ -7,8 +7,60 @@
     <title>Página de detalle de NETFAKE</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/section.css">
 </head>
 <body>
-    <p>PÁGINA DETALLE</p>
+    <header>
+        <nav class="navbar">
+          <input type="checkbox" id="burger-checkbox">
+          <label for="burger-checkbox" class="burger-label"></label>
+          <span class="logo">
+            <img src="./img/logo-netfake-transparente.png" alt="logo de Netfake" width="150px">
+          </span>  
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="./main.html#novedades">Novedades</a></li>
+            <li class="navbar-item"><a href="./main.html#series">Series</a></li>
+            <li class="navbar-item"><a href="./main.html#peliculas">Películas</a></li>
+            <li class="navbar-item"><a href="./main.html#favoritos">Favoritos</a></li>
+            <li class="navbar-item">
+              <input type="text" id="buscar" name="buscar" placeholder="B u s c a r">
+            </li>
+            <li class="navbar-item"><a href="./index.html" target="_blank">Cerrar&nbsp;sesión</a></li>
+          </ul>
+        </nav>
+    </header>
+    <section class="informacion" id="informacion">
+        <h1>Información</h1>
+        <ul>
+            <li>Título: &nbsp;&nbsp;Uno de los nuestros</li>
+            <li>Calificación: &nbsp;&nbsp;+18 años</li>
+            <li>Año: &nbsp;&nbsp;1990</li>
+            <li>Duración: &nbsp;&nbsp;2h 26min</li>
+            <li>Director: &nbsp;&nbsp;Martin Scorsese</li>
+            <li>Actores principales: &nbsp;&nbsp;Robert De Niro · Ray Liotta · Joe Pesci</li>
+            <li>Sinopsis: &nbsp;&nbsp;<p>La historia de Henry Hill y su vida en la mafia, 
+                abarcando su relación con su esposa Karen Hill y sus socios mafiosos Jimmy Conway 
+                y Tommy DeVito en el sindicato del crimen italoamericano.</p></li>
+        </ul>
+    </section>
+    <section class="trailer" id="trailer">
+        <h1>Carátula y trailer</h1>
+        <div class="container2">
+            <div class="peli caratula"><img src="./img/caratula.jpeg" height="200px" alt="Uno de los nuestros"></div>
+            <div class="peli trailer"><video src="./video/pulp-fiction-trailer.mp4" height="300px" controls></video></div>
+          </div>
+    </section>
+    <section class="similares" id="similares">
+        <h1>Películas similares</h1>
+        <div class="container3">
+            <div class="peli peli1"><img src="./img/peli1.jpg" height="200px" alt="Uno de los nuestros"></div>
+            <div class="peli peli2"><img src="./img/pulp-fiction.jpeg" height="200px" alt="Pulp Fiction"></div>
+            <div class="peli peli3"><img src="./img/peli3.jpg" height="200px" alt="Trainspotting"></div>
+            <div class="peli peli4"><img src="./img/truman.jpeg" height="200px" alt="El show de Truman"></div>
+            <div class="peli peli5"><img src="./img/apocalypse.jpeg" height="200px" alt="Apocalypse Now"></div>
+            <div class="peli peli6"><img src="./img/aterriza.jpeg" height="200px" alt="Aterriza como puedas"></div>
+          </div>
+    </section>
 </body>
 </html>
