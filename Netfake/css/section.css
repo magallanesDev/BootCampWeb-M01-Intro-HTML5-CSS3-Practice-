@@ -18,9 +18,10 @@ section {
     display: grid;
     gap: 30px;
     grid-template-areas:
-      "title  title  title"
-      "peli1  peli2  peli3"
-      "peli4  peli5  peli6";
+      "title  title"
+      "peli1  peli2"
+      "peli3  peli4"
+      "peli5  peli6";
   }
 
   .novedades, .series, .peliculas {
@@ -93,7 +94,8 @@ section {
   display: grid;
   gap: 50px;
   grid-template-areas:
-    "caratula  trailer";
+    "caratula"
+    "trailer2";
 }
 
 .container3 {
@@ -104,6 +106,24 @@ section {
   display: grid;
   gap: 50px;
   grid-template-areas:
+    "peli1  peli2"
+    "peli3  peli4" 
+    "peli5  peli6";
+}
+
+/* pantallas grandes */
+
+@media all and (min-width: 800px) {
+  .container1 {
+    grid-template-areas:
+      "title  title  title"
+      "peli1  peli2  peli3"
+      "peli4  peli5  peli6";
+  }
+
+  .container3 {
+    grid-template-areas:
     "peli1  peli2  peli3"
     "peli4  peli5  peli6";
+  }
 }
