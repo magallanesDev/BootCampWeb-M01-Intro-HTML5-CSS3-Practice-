@@ -49,8 +49,6 @@ form button {
 
 form a {
     margin: 10px;
-    text-decoration: none;
-    cursor: pointer;
     font-size: 14px;
     color: lightslategrey;
 }
