@@ -99,9 +99,6 @@
   }
 
   .navbar .logo {
-    flex: 1;
-    display: flex;
-    justify-content: left;
     margin-left: 20px;
   }
 
@@ -110,16 +107,13 @@
     flex-direction: row;
     justify-content: left;
     width: 0;
+    height: 60px;
     left: 200px;
     top: 5px;
   }
 
   .navbar-item {
     padding: 2px;
-  }
-
-  .navbar-list a:hover {
-    color: red;
   }
 
   #buscar {
