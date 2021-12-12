@@ -1,20 +1,22 @@
 .star {
    visibility: hidden;
-   font-size: 30px;
-   cursor: pointer;   
+   font-size: 45px;
+   cursor: pointer;
 }
 
 .star:before {
    content: "\2605";
+   color: turquoise;
    position: relative;
    visibility: visible;
-   left: 175px;
-   top: -165px;     
+   left: 140px;
+   top: -145px;     
 }
 
 .star:checked:before {
    content: "\2606";
+   color: turquoise;
    position: relative;
-   left: 175px;
-   top: -165px;
+   left: 140px;
+   top: -145px;
 }

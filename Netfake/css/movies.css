@@ -73,42 +73,36 @@
   .peli13 {
     grid-area: peli13;
     background-image: url(../img/ben-hur.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
   }
   
   .peli14 {
     grid-area: peli14;
     background-image: url(../img/cazafantasmas.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
   }
   
   .peli15 {
     grid-area: peli15;
     background-image: url(../img/chichiro.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
   }
   
   .peli16 {
     grid-area: peli16;
-    background-image: url(../img/2001.jpeg);
-    background-repeat: no-repeat;
+    background-image: url(../img/goonies.jpeg);
     background-size: cover;
   }
   
   .peli17 {
     grid-area: peli17;
-    background-image: url(../img/wind.jpeg);
-    background-repeat: no-repeat;
+    background-image: url(../img/exorcist.jpeg);
     background-size: cover;
   }
   
   .peli18 {
     grid-area: peli18;
     background-image: url(../img/alien.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
   }
   

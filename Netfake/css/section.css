@@ -59,7 +59,11 @@ section {
 }
 
 .peli ul:hover {
-  color: whitesmoke;
+  color: turquoise;
+  text-shadow: 1.5px 1.5px 1.5px rgb(255, 255, 255),
+    1.5px -1.5px 1.5px rgb(255, 255, 255),
+    -1.5px 1.5px 1.5px rgb(255, 255, 255),
+    -1.5px -1.5px 1.5px rgb(255, 255, 255);
 }
 
 .informacion {
