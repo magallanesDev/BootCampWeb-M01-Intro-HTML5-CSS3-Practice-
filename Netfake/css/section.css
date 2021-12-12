@@ -78,7 +78,6 @@ section {
 .informacion p {
   line-height: 150%;
   margin-top: 0.5rem;
-  width: 480px;
 }
 
 .similares {
@@ -129,13 +128,6 @@ section {
       "peli10  peli11  peli12";
   }
 
-  .container3 {
-    gap: 3rem;
-    grid-template-areas:
-      "title     title"
-      "caratula  trailer";
-  }
-
   .container4 {
     gap: 3rem;
     grid-template-areas:
@@ -146,6 +138,6 @@ section {
 
   .informacion p {
     width: auto;
-    max-width: 750px;
+    max-width: 660px;
   }
 }
