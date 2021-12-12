@@ -16,10 +16,6 @@
   justify-content: left;
 }
 
-.navbar a {
-  text-decoration: none;
-}
-
 /* burger menu */
 
 .navbar .burger-label {
@@ -57,7 +53,6 @@
   margin: 0;
   width: 200px;
   background-color:antiquewhite;
-  list-style-type: none;
   padding: 0;
 
   position: absolute;

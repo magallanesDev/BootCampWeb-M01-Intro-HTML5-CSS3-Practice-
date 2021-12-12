@@ -37,13 +37,19 @@ section {
     grid-area: title;
   }
 
-  .peli p {
+  .peli ul {
+    display: flex;
+    flex-direction: column;
     font-size: 2rem;
-    justify-content: center;
-    color: transparent
+    padding: 3.25rem 0;
+    margin: 0;
+    margin-left: -20px;
+    align-items: center;
+    color: transparent;
+    line-height: 4rem;
   }
 
-  .peli p:hover {
+  .peli ul:hover {
     color: whitesmoke;
   }
 

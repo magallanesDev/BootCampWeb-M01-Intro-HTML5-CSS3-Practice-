@@ -9,12 +9,12 @@
    position: relative;
    visibility: visible;
    left: 175px;
-   top: -40px;     
+   top: -165px;     
 }
 
 .star:checked:before {
    content: "\2606";
    position: relative;
    left: 175px;
-   top: -40px;
+   top: -165px;
 }
