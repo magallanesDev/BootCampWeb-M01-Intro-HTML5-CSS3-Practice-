@@ -62,78 +62,6 @@ section {
   color: whitesmoke;
 }
 
-.peli1 {
-  grid-area: peli1;
-  background-image: url(../img/padrino.jpeg);
-  background-size: cover;
-}
-
-.peli2 {
-  grid-area: peli2;
-  background-image: url(../img/pulp-fiction.jpeg);
-  background-size: cover;
-}
-
-.peli3 {
-  grid-area: peli3;
-  background-image: url(../img/blade-runner.jpeg);
-  background-size: cover;
-}
-
-.peli4 {
-  grid-area: peli4;
-  background-image: url(../img/truman.jpeg);
-  background-size: cover;
-}
-
-.peli5 {
-  grid-area: peli5;
-  background-image: url(../img/apocalypse.jpeg);
-  background-size: cover;
-}
-
-.peli6 {
-  grid-area: peli6;
-  background-image: url(../img/jedi.jpeg);
-  background-size: cover;
-}
-
-.peli7 {
-  grid-area: peli7;
-  background-image: url(../img/jurassic-park.jpeg);
-  background-size: cover;
-}
-
-.peli8 {
-  grid-area: peli8;
-  background-image: url(../img/life-of-brian.jpeg);
-  background-size: cover;
-}
-
-.peli9 {
-  grid-area: peli9;
-  background-image: url(../img/schindler.jpeg);
-  background-size: cover;
-}
-
-.peli10 {
-  grid-area: peli10;
-  background-image: url(../img/taxi-driver.jpeg);
-  background-size: cover;
-}
-
-.peli11 {
-  grid-area: peli11;
-  background-image: url(../img/terminator.jpeg);
-  background-size: cover;
-}
-
-.peli12 {
-  grid-area: peli12;
-  background-image: url(../img/titanic.jpeg);
-  background-size: cover;
-}
-
 .informacion {
   margin-top: 2rem;
   padding-bottom: 0px;
@@ -176,48 +104,6 @@ section {
     "peli13  peli14"
     "peli15  peli16" 
     "peli17  peli18";
-}
-
-.peli13 {
-  grid-area: peli13;
-  background-image: url(../img/ben-hur.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.peli14 {
-  grid-area: peli14;
-  background-image: url(../img/cazafantasmas.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.peli15 {
-  grid-area: peli15;
-  background-image: url(../img/chichiro.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.peli16 {
-  grid-area: peli16;
-  background-image: url(../img/2001.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.peli17 {
-  grid-area: peli17;
-  background-image: url(../img/wind.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.peli18 {
-  grid-area: peli18;
-  background-image: url(../img/alien.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* pantallas grandes */

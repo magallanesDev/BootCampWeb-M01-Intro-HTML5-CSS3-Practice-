@@ -19,6 +19,7 @@
 
 .navbar .burger-label {
   display: block;
+  margin-top: 18px;
   width: var(--burger-width);
   height: 24px;
   position: relative;
