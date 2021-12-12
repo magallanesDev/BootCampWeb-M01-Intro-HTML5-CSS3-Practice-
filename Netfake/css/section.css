@@ -1,226 +1,178 @@
 section {
-    padding: 2rem 2rem;
-  }
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
 
 .peli {
-    border: solid 1px darkgrey;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  border: solid 1px darkgrey;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
 .container1 {
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-right: 40px;
-    max-width: 760px;
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-      "title  title"
-      "peli1  peli2"
-      "peli3  peli4"
-      "peli5  peli6";
-  }
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "title  title"
+    "peli1  peli2"
+    "peli3  peli4"
+    "peli5  peli6";
+}
 
-  .container2 {
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-right: 40px;
-    max-width: 760px;
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-      "title  title"
-      "peli7  peli8"
-      "peli9  peli10"
-      "peli11  peli12";
-  }
-
-  .novedades, .series, .peliculas {
-    margin-left: 10px;
-  }
-
-  .favoritos {
-    margin-left: 10px;
-    margin-bottom: 500px;
-  }
+.container2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "title   title"
+    "peli7   peli8"
+    "peli9   peli10"
+    "peli11  peli12";
+}
   
-  .title {
-    grid-area: title;
-  }
+.novedades {
+  margin-top: 2rem;
+}
 
-  .peli ul {
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    padding: 3.25rem 0;
-    margin: 0;
-    margin-left: -20px;
-    align-items: center;
-    color: transparent;
-    line-height: 4rem;
-  }
+.title {
+  grid-area: title;
+}
 
-  .peli ul:hover {
-    color: whitesmoke;
-  }
+.peli ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  padding: 3.25rem 0;
+  margin: 0;
+  margin-left: -20px;
+  align-items: center;
+  color: transparent;
+  line-height: 4rem;
+}
 
-  .peli1 {
-    grid-area: peli1;
-    background-image: url(../img/padrino.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli ul:hover {
+  color: whitesmoke;
+}
 
-  .peli2 {
-    grid-area: peli2;
-    background-image: url(../img/pulp-fiction.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli1 {
+  grid-area: peli1;
+  background-image: url(../img/padrino.jpeg);
+  background-size: cover;
+}
 
-  .peli3 {
-    grid-area: peli3;
-    background-image: url(../img/blade-runner.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli2 {
+  grid-area: peli2;
+  background-image: url(../img/pulp-fiction.jpeg);
+  background-size: cover;
+}
 
-  .peli4 {
-    grid-area: peli4;
-    background-image: url(../img/truman.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli3 {
+  grid-area: peli3;
+  background-image: url(../img/blade-runner.jpeg);
+  background-size: cover;
+}
 
-  .peli5 {
-    grid-area: peli5;
-    background-image: url(../img/apocalypse.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli4 {
+  grid-area: peli4;
+  background-image: url(../img/truman.jpeg);
+  background-size: cover;
+}
 
-  .peli6 {
-    grid-area: peli6;
-    background-image: url(../img/jedi.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli5 {
+  grid-area: peli5;
+  background-image: url(../img/apocalypse.jpeg);
+  background-size: cover;
+}
 
-  .peli7 {
-    grid-area: peli7;
-    background-image: url(../img/jurassic-park.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli6 {
+  grid-area: peli6;
+  background-image: url(../img/jedi.jpeg);
+  background-size: cover;
+}
 
-  .peli8 {
-    grid-area: peli8;
-    background-image: url(../img/life-of-brian.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli7 {
+  grid-area: peli7;
+  background-image: url(../img/jurassic-park.jpeg);
+  background-size: cover;
+}
 
-  .peli9 {
-    grid-area: peli9;
-    background-image: url(../img/schindler.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli8 {
+  grid-area: peli8;
+  background-image: url(../img/life-of-brian.jpeg);
+  background-size: cover;
+}
 
-  .peli10 {
-    grid-area: peli10;
-    background-image: url(../img/taxi-driver.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli9 {
+  grid-area: peli9;
+  background-image: url(../img/schindler.jpeg);
+  background-size: cover;
+}
 
-  .peli11 {
-    grid-area: peli11;
-    background-image: url(../img/terminator.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli10 {
+  grid-area: peli10;
+  background-image: url(../img/taxi-driver.jpeg);
+  background-size: cover;
+}
 
-  .peli12 {
-    grid-area: peli12;
-    background-image: url(../img/titanic.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 300px;
-  }
+.peli11 {
+  grid-area: peli11;
+  background-image: url(../img/terminator.jpeg);
+  background-size: cover;
+}
+
+.peli12 {
+  grid-area: peli12;
+  background-image: url(../img/titanic.jpeg);
+  background-size: cover;
+}
 
 .informacion {
-  margin-top: 40px;
-  margin-left: 10px;
+  margin-top: 2rem;
   padding-bottom: 0px;
 }
 
 .informacion li {
   padding: 0.5rem;
-  max-width: 700px;
 }
 
 .informacion p {
   line-height: 150%;
   margin-top: 0.5rem;
-}
-
-.caratula-trailer {
-  margin-left: 10px;
+  width: 480px;
 }
 
 .similares {
-  padding-top: 30px;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  padding-top: 3rem;
 }
 
 .container3 {
-  margin-top: 40px;
-  margin-left: 0px;
-  margin-right: 40px;
-  max-width: 760px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: grid;
-  gap: 50px;
+  gap: 1.5rem;
   grid-template-areas:
+    "title"
     "caratula"
     "trailer";
 }
 
 .container4 {
-  margin-top: 40px;
-  margin-left: 0px;
-  margin-right: 40px;
-  max-width: 760px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: grid;
-  gap: 50px;
+  gap: 1.5rem;
   grid-template-areas:
+    "title   title"
     "peli13  peli14"
     "peli15  peli16" 
     "peli17  peli18";
@@ -231,8 +183,6 @@ section {
   background-image: url(../img/ben-hur.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 .peli14 {
@@ -240,8 +190,6 @@ section {
   background-image: url(../img/cazafantasmas.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 .peli15 {
@@ -249,8 +197,6 @@ section {
   background-image: url(../img/chichiro.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 .peli16 {
@@ -258,8 +204,6 @@ section {
   background-image: url(../img/2001.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 .peli17 {
@@ -267,8 +211,6 @@ section {
   background-image: url(../img/wind.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 .peli18 {
@@ -276,14 +218,13 @@ section {
   background-image: url(../img/alien.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 300px;
 }
 
 /* pantallas grandes */
 
 @media all and (min-width: 800px) {
   .container1 {
+    gap: 3rem;
     grid-template-areas:
       "title  title  title"
       "peli1  peli2  peli3"
@@ -291,15 +232,30 @@ section {
   }
 
   .container2 {
+    gap: 3rem;
     grid-template-areas:
-      "title  title  title"
-      "peli7  peli8  peli9"
+      "title   title   title"
+      "peli7   peli8   peli9"
       "peli10  peli11  peli12";
   }
 
-  .container4 {
+  .container3 {
+    gap: 3rem;
     grid-template-areas:
-    "peli13  peli14  peli15"
-    "peli16  peli17  peli18";
+      "title     title"
+      "caratula  trailer";
+  }
+
+  .container4 {
+    gap: 3rem;
+    grid-template-areas:
+      "title   title   title"
+      "peli13  peli14  peli15"
+      "peli16  peli17  peli18";
+  }
+
+  .informacion p {
+    width: auto;
+    max-width: 750px;
   }
 }
